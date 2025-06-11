@@ -1,32 +1,81 @@
 import Footer from "./Footer"
 import Navbar from "./Navbar"
+import Carousel from 'react-bootstrap/Carousel';
 
 function HomePage() {
   return (
     <div>
       <Navbar/>
-      <h1>This is home page</h1>
+    
+      <div className="mt-3"></div>
 
-      <div id="carouselExample" class="carousel slide">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="Image/wl1.jpg" class="d-block w-100" alt="..."/>
+       <Carousel>
+      <Carousel.Item>
+       <img className="d-block w-100" src='Image/cake1.jpg' alt='Cake1' height="300"/>
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src='Image/cake2.jpg' alt='Cake1' height="300"/>
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+       <img className="d-block w-100" src='Image/cake3.jpg' alt='Cake1' height="300"/>
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+
+
+
+
+  <h1 className="text-center">Special Cakes</h1>
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+     <div class="card" style={{width: "18rem;"}}>
+  <img src="Image/cake3.jpg" height='100' class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
     </div>
-    <div class="carousel-item">
-      <img src="Image/wl2.jpg" class="d-block w-100" alt="..."/>
+
+
+    <div class="col">
+      <div class="card" style={{width: "18rem;"}}>
+  <img src="Image/cake1.jpg"  height='100' class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
     </div>
-    <div class="carousel-item">
-      <img src="Image/wl3.jpg" class="d-block w-100" alt="..."/>
+
+    <div class="col">
+       <div class="card" style={{width: "18rem;"}}>
+  <img src="Image/cake2.jpg"  height='100' class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
 </div>
 
       <Footer/>
