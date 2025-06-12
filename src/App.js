@@ -15,6 +15,7 @@ import Login from './Components/Login';
 import Feedback from './Components/Feedback';
 import Clickevent from './Components/Clickevent';
 import ClickEvent2 from './Components/ClickEvent2';
+import Table from './Components/Table';
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       </Routes> */}
 
       {/* <Clickevent/> */}
-      <ClickEvent2/>
+      {/* <ClickEvent2/> */}
+      <Table/>
 
     </div>
   );
