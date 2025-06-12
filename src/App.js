@@ -13,19 +13,24 @@ import { Routes , Route} from 'react-router-dom';
 import Signup from './Components/Signup';
 import Login from './Components/Login';
 import Feedback from './Components/Feedback';
+import Clickevent from './Components/Clickevent';
+import ClickEvent2 from './Components/ClickEvent2';
 
 function App() {
   return (
     <div className="App">
 
-<Routes>
+{/* <Routes>
         <Route path="/" element={<HomePage/>}></Route>
         <Route path="/About" element={<AboutPage/>}/>
         <Route path="/Contact" element={<ContactPage/>}/>
         <Route path='/Signup' element={<Signup/>}/>
         <Route path='/Login' element={<Login/>}/>
         <Route path='Feedback' element={<Feedback/>}/>
-      </Routes>
+      </Routes> */}
+
+      {/* <Clickevent/> */}
+      <ClickEvent2/>
 
     </div>
   );
