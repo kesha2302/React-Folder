@@ -18,6 +18,7 @@ import ClickEvent2 from './Components/ClickEvent2';
 import Table from './Components/Table';
 import FunProp from './Components/FunProp';
 import ClassProp from './Components/ClassProp';
+import Portal1 from './Components/Portal1';
 
 function App() {
   return (
@@ -35,10 +36,12 @@ function App() {
       {/* <Clickevent/> */}
       {/* <ClickEvent2/> */}
       {/* <Table/> */}
-      <FunProp fname="kesha" age='23' other={{email:"xyz@gmail.com", address:"Anand"}}/>
-      <FunProp fname="Kinjal" age='24' other={{email:"abc@gmail.com", address:"Borsad"}}/>
+      {/* <FunProp fname="kesha" age='23' other={{email:"xyz@gmail.com", address:"Anand"}}/>
+      <FunProp fname="Kinjal" age='24' other={{email:"abc@gmail.com", address:"Borsad"}}/> */}
 
       {/* <ClassProp fname="Kesha" age='23'/> */}
+
+      <Portal1/>
 
     </div>
   );
