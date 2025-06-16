@@ -19,6 +19,8 @@ import Table from './Components/Table';
 import FunProp from './Components/FunProp';
 import ClassProp from './Components/ClassProp';
 import Portal1 from './Components/Portal1';
+import Styling from './Components/Styling';
+import ClassState from './Components/ClassState';
 
 function App() {
   return (
@@ -41,7 +43,9 @@ function App() {
 
       {/* <ClassProp fname="Kesha" age='23'/> */}
 
-      <Portal1/>
+      {/* <Portal1/> */}
+      {/* <Styling paragraph={false}/> */}
+      <ClassState/>
 
     </div>
   );

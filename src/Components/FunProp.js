@@ -2,6 +2,9 @@
 // function FunProp(props) {
 //   return (
 //     <div>
+
+
+
 //       <h1>Firstname:{props.fname}</h1>
 //       <h2>Age:{props.age}</h2>
 //       <h3>Email:{props.other.email}</h3>
