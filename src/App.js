@@ -21,6 +21,7 @@ import ClassProp from './Components/ClassProp';
 import Portal1 from './Components/Portal1';
 import Styling from './Components/Styling';
 import ClassState from './Components/ClassState';
+import Hook1 from './Components/Hook1';
 
 function App() {
   return (
@@ -45,7 +46,8 @@ function App() {
 
       {/* <Portal1/> */}
       {/* <Styling paragraph={false}/> */}
-      <ClassState/>
+      {/* <ClassState/> */}
+      <Hook1/>
 
     </div>
   );
