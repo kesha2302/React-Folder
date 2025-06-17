@@ -1,4 +1,5 @@
 import Footer from "./Footer"
+import MultiCarousel from "./MultiCarousel";
 import Navbar from "./Navbar"
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -77,6 +78,10 @@ function HomePage() {
     </div>
   </div>
 </div>
+
+
+<MultiCarousel/>
+
 
       <Footer/>
     </div>

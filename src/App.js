@@ -24,19 +24,20 @@ import ClassState from './Components/ClassState';
 import Hook1 from './Components/Hook1';
 import EventBinding from './Components/EventBinding';
 import ConditionalRendering from './Components/ConditionalRendering';
+import MultiCarousel from './Components/MultiCarousel';
 
 function App() {
   return (
     <div className="App">
 
-{/* <Routes>
+<Routes>
         <Route path="/" element={<HomePage/>}></Route>
         <Route path="/About" element={<AboutPage/>}/>
         <Route path="/Contact" element={<ContactPage/>}/>
         <Route path='/Signup' element={<Signup/>}/>
         <Route path='/Login' element={<Login/>}/>
         <Route path='Feedback' element={<Feedback/>}/>
-      </Routes> */}
+      </Routes>
 
       {/* <Clickevent/> */}
       {/* <ClickEvent2/> */}
@@ -51,7 +52,8 @@ function App() {
       {/* <ClassState/> */}
       {/* <Hook1/> */}
       {/* <EventBinding/> */}
-      <ConditionalRendering/>
+      {/* <ConditionalRendering/> */}
+      {/* <MultiCarousel/> */}
 
     </div>
   );
