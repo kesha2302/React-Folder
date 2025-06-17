@@ -22,6 +22,8 @@ import Portal1 from './Components/Portal1';
 import Styling from './Components/Styling';
 import ClassState from './Components/ClassState';
 import Hook1 from './Components/Hook1';
+import EventBinding from './Components/EventBinding';
+import ConditionalRendering from './Components/ConditionalRendering';
 
 function App() {
   return (
@@ -47,7 +49,9 @@ function App() {
       {/* <Portal1/> */}
       {/* <Styling paragraph={false}/> */}
       {/* <ClassState/> */}
-      <Hook1/>
+      {/* <Hook1/> */}
+      {/* <EventBinding/> */}
+      <ConditionalRendering/>
 
     </div>
   );
