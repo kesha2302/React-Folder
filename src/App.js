@@ -27,6 +27,8 @@ import ConditionalRendering from './Components/ConditionalRendering';
 import MultiCarousel from './Components/MultiCarousel';
 import FormHandling from './Components/FormHandling';
 import FormHandling2 from './Components/FormHandling2';
+import CParentcomp from './Components/CParentcomp';
+import FParentcomp from './Components/FParentcomp';
 
 function App() {
   return (
@@ -58,7 +60,10 @@ function App() {
       {/* <MultiCarousel/> */}
 
       {/* <FormHandling/> */}
-      <FormHandling2/>
+      {/* <FormHandling2/> */}
+
+      {/* <CParentcomp/> */}
+      <FParentcomp/>
 
     </div>
   );
