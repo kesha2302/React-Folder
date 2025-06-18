@@ -7,10 +7,15 @@ function FormHandling2() {
         lastname:""
     })
 
+     const handlerSubmit = (e)=>{
+        e.preventDefault();
+         alert(`${name.firstname} ${name.lastname} `)
+     }
+
   return (
     <div>
       FormHandling using Functional Component
-      <form>
+      <form onSubmit={handlerSubmit}>
 
             <div class="form-group">
               <label for="">First Name:</label>
@@ -28,7 +33,7 @@ function FormHandling2() {
 
             
 
-            {/* <button type='submit' className='btn-primary'>Submit</button> */}
+            <button type='submit' className='btn-primary'>Submit</button>
 
         </form>
 
