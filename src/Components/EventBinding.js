@@ -17,6 +17,7 @@ export class EventBinding extends Component {
         })
     }
 
+    // Approach 4
     clickhandler2 =()=>{
         this.setState({
             message:"Welcome to Innobrain..."
@@ -31,7 +32,7 @@ export class EventBinding extends Component {
         {/* <button type="button" class="btn btn-primary" onClick={this.clickhandler} >Click</button> */}
 
         {/* Approach 1 */}
-        {/* Binding in rebder method */}
+        {/* Binding in render method */}
         <button type="button" class="btn btn-primary" onClick={this.clickhandler.bind(this)} >Click1</button>
 
 
@@ -39,7 +40,8 @@ export class EventBinding extends Component {
         {/* Use arrow function */}
         <button type="button" class="btn btn-primary" onClick={()=>this.clickhandler()} >Click2</button>
 
-        {/* APproach 3 */}
+        {/* Approach 3 */}
+        {/* Bind in constructor */}
          <button type="button" class="btn btn-primary" onClick={this.clickhandler} >Click3</button>
 
 
