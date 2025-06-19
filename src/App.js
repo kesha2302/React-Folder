@@ -29,6 +29,9 @@ import FormHandling from './Components/FormHandling';
 import FormHandling2 from './Components/FormHandling2';
 import CParentcomp from './Components/CParentcomp';
 import FParentcomp from './Components/FParentcomp';
+import List from './Components/List';
+import ListData from './Components/ListData';
+import HookArray from './Components/HookArray';
 
 function App() {
   return (
@@ -63,7 +66,10 @@ function App() {
       {/* <FormHandling2/> */}
 
       {/* <CParentcomp/> */}
-      <FParentcomp/>
+      {/* <FParentcomp/> */}
+      {/* <List/> */}
+      {/* <ListData/> */}
+      <HookArray/>
 
     </div>
   );
