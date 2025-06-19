@@ -32,6 +32,8 @@ import FParentcomp from './Components/FParentcomp';
 import List from './Components/List';
 import ListData from './Components/ListData';
 import HookArray from './Components/HookArray';
+import LifeCycle1 from './Components/LifeCycle1';
+import LifeCycle3 from './Components/LifeCycle3';
 
 function App() {
   return (
@@ -69,7 +71,9 @@ function App() {
       {/* <FParentcomp/> */}
       {/* <List/> */}
       {/* <ListData/> */}
-      <HookArray/>
+      {/* <HookArray/> */}
+      {/* <LifeCycle1/> */}
+      <LifeCycle3/>
 
     </div>
   );

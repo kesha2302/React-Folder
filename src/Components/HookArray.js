@@ -22,7 +22,7 @@ function HookArray() {
 {/* for each item, it renders an <li> element showing item.value */}
       <ul>
         {items.map(items=>(
-            <li >{items.value}</li>
+            <li key={items.id}>{items.value}</li>
         ))}
       </ul>
     </div>
