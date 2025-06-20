@@ -34,6 +34,10 @@ import ListData from './Components/ListData';
 import HookArray from './Components/HookArray';
 import LifeCycle1 from './Components/LifeCycle1';
 import LifeCycle3 from './Components/LifeCycle3';
+import Effect1 from './Components/Effect1';
+import Effect2 from './Components/Effect2';
+import Effect3 from './Components/Effect3';
+import DataFetching from './Components/DataFetching';
 
 function App() {
   return (
@@ -73,7 +77,11 @@ function App() {
       {/* <ListData/> */}
       {/* <HookArray/> */}
       {/* <LifeCycle1/> */}
-      <LifeCycle3/>
+      {/* <LifeCycle3/> */}
+      {/* <Effect1/> */}
+      {/* <Effect2/> */}
+      {/* <Effect3/> */}
+      <DataFetching/>
 
     </div>
   );
